@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    background-color: white;
+   
+}
+body{
+    background-color: rgb(223, 204, 228);
+}
+p{
+padding-top: 70px;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    font-family: Alice;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    }
+
+#one{
+    height: 500px;
+    width: 150;
+    position: relative;
+    top: 60px;
+    left: 70px;}
+    #three{
+        height: 400px;
+        width: 530px;
+        position: relative;
+       
+        top: 60px;
+        right: 120px;
+        }
+        .cool{
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+        }
+
+box { display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    }
+    .navbar {
+    display: flex;
+    align-items: center;
+    }
+    
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    .navbar a {
+        color: rgb(250, 97, 122);
+    }
+    a {
+    text-decoration: none;
+    }
+    .navbar .brand {
+        display: block;
+        padding: 0 24px;
+      font-size: 24px;
+    }
+    .navbar ul li a {
+        padding: 24px;
+        display: block;
+    }
+    .navbar ul a:hover,
+    .navbar ul a:focus {
+      background-color:rgb(254, 218, 224);
+    }
+    

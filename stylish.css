@@ -1,0 +1,66 @@
+.bom {
+    margin: 40px 0 0 0;
+}
+p {
+    color: rgb(238, 137, 154);
+    background-color: white;
+    size: 80px;
+    width: 250px;
+    text-align: center;
+    height: 40px;
+    padding: 20px 0 0 0;
+    position: relative;
+    bottom: 50px;
+    
+}
+ img {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 25px;
+    
+ }
+ body{
+    background-color: pink;
+ }
+ .box { display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    }
+    .navbar {
+    display: flex;
+    align-items: center;
+    }
+    
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    .navbar a {
+        color: white;
+    }
+    a {
+    text-decoration: none;
+    }
+    .navbar .brand {
+        display: block;
+        padding: 0 24px;
+      font-size: 24px;
+    }
+    .navbar ul li a {
+        padding: 24px;
+        display: block;
+    }
+    .navbar ul a:hover,
+    .navbar ul a:focus {
+      background-color:rgb(254, 218, 224);
+    }
+    img a:hover
+    img a:focus{
+background-color: white;
+    }
